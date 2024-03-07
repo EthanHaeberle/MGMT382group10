@@ -39,6 +39,11 @@
             <li style="color: white;"> Contact Us </li>
             <li style="color: white;"> Get More Information </li>
         </ol>
+        <br>
+        <p>Last updated: <span id="lastUpdated"></span></p>
         </div>
+        <script>
+        document.getElementById("lastUpdated").innerHTML = document.lastModified;
+        </script>
     </body>
 </html>
