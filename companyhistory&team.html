@@ -57,7 +57,11 @@
     </main>
     
     <footer>
-        <p>&copy; 2024 Christie and Chris's Cooking Cabin. All rights reserved.</p>
+        <p>&copy; 2024 Christie and Chris's Cooking Cabin. All rights reserved.<br></p>
+        <p>Last updated: <span id="lastUpdated"></span></p>
+        <script>
+            document.getElementById("lastUpdated").innerHTML = document.lastModified;
+        </script>
     </footer>
 </body>
 </html>
